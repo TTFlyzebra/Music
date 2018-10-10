@@ -137,13 +137,13 @@
                 <data android:mimeType="vnd.android.cursor.dir/album"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.android.music.NowPlayingActivity" android:exported="false" >
-            <intent-filter>
-                <action android:name="android.intent.action.PICK" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.dir/nowplaying"/>
-            </intent-filter>
-        </activity>
+        <!--<activity android:name="com.android.music.NowPlayingActivity" android:exported="false" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.PICK" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<data android:mimeType="vnd.android.cursor.dir/nowplaying"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
         <activity android:name="com.android.music.TrackBrowserActivity" android:exported="false" >
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
@@ -173,11 +173,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="vnd.android.cursor.dir/playlist"/>
             </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.dir/playlist"/>
-            </intent-filter>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<data android:mimeType="vnd.android.cursor.dir/playlist"/>-->
+            <!--</intent-filter>-->
         </activity>
         <activity-alias android:name="com.android.music.PlaylistShortcutActivity"
             android:targetActivity="com.android.music.PlaylistBrowserActivity"
